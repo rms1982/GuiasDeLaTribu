@@ -7,6 +7,10 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'Guías de la Tribu',
+            logo: {
+                src: '/src/assets/gdlt_logo.svg',
+                alt: 'Logo de la Tribu',
+            },
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
             sidebar: [
                 {
