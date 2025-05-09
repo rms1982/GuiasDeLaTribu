@@ -11,7 +11,7 @@ export default defineConfig({
                 src: '/src/assets/gdlt_logo.svg',
                 alt: 'Logo de la Tribu',
             },
-            social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+            social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rms1982/GuiasDeLaTribu' }],
             sidebar: [
                 {
                     label: 'Guides',
