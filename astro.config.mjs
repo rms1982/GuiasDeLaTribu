@@ -16,14 +16,14 @@ export default defineConfig({
                 {
                     label: 'Guías',
                     items: [
-                        // Each item here is one entry in the navigation menu.
-                        { label: 'Guía inicial', slug: 'guias/guia-inicial' },
+                        { label: 'Bienvenida', slug: 'guias/bienvenida' },
                     ],
                 },
                 {
                     label: 'Reference',
-                    autogenerate:
-                        { directory: 'src/content/docs/reference' },
+                    autogenerate: {
+                        directory: 'src/content/docs/reference',
+                    },
                 },
             ],
         }),
