@@ -14,15 +14,17 @@ export default defineConfig({
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rms1982/GuiasDeLaTribu' }],
             sidebar: [
                 {
-                    label: 'Guides',
+                    label: 'Guías',
                     items: [
                         // Each item here is one entry in the navigation menu.
-                        { label: 'Example Guide', slug: 'guides/example' },
+                        { label: 'Guía inicial', slug: 'Guías/Guía inicial' },
                     ],
                 },
                 {
                     label: 'Reference',
-                    autogenerate: { directory: 'src/content/docs/reference' },
+                    autogenerate: [
+                        { directory: 'src/content/docs/reference' },
+                    ],
                 },
             ],
         }),
