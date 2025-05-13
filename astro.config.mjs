@@ -17,7 +17,7 @@ export default defineConfig({
                     label: 'Guías',
                     items: [
                         // Each item here is one entry in the navigation menu.
-                        { label: 'Guía inicial', slug: 'Guías/Guía inicial' },
+                        { label: 'Guía inicial', slug: 'guias/guia-inicial' },
                     ],
                 },
                 {
