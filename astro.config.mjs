@@ -1,6 +1,6 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,16 +13,29 @@ export default defineConfig({
             },
             social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rms1982/GuiasDeLaTribu' }],
             sidebar: [
+                { label: 'Bienvenida', slug: 'bienvenida' },
                 {
                     label: 'Guías',
-                    items: [
-                        { label: 'Bienvenida', slug: 'guias/bienvenida' },
-                    ],
+                    autogenerate: {
+                        directory: 'guias',
+                    },
                 },
                 {
                     label: 'Reference',
                     autogenerate: {
-                        directory: 'src/content/docs/reference',
+                        directory: 'reference',
+                    },
+                },
+                {
+                    label: 'Doble anidacion',
+                    autogenerate: {
+                        directory: 'deleteme',
+                    },
+                },
+                {
+                    label: 'Triple anidacion',
+                    autogenerate: {
+                        directory: 'deleteme2',
                     },
                 },
             ],
