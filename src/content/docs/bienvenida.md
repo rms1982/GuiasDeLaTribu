@@ -26,8 +26,12 @@ Pequeños cambios pueden hacer una gran diferencia.
  * __Tu Navegador Web: La puerta a Internet.__  
 
    Es lo primero que usas para entrar a internet. Algunos navegadores son como un libro abierto sobre lo que haces en línea. Te enseñaremos opciones que respetan más tu privacidad y hablaremos de esas famosas "cookies" que no son galletas, ¡pero que también te siguen!  
-   Cambiar de navegador es más sencillo de lo que piensas y cierra muchas de esas "ventanas indiscretas".
+   Cambiar de navegador es más sencillo de lo que piensas y cierra muchas de esas "ventanas indiscretas".  
 
+ * __El buscador. ¿Sólo existe Google?__  
+
+   Durante mucho tiempo no usar el buscador de Google era sinónimo de no tener resultados de calidad, pero afortunadamente esto está cambiando. Google cada vez más te intenta colocar productos y enlaces a tiendas en lugar de buenos resultados de búsqueda (además de rastrearte). Te voy a mostrar un buscador que respeta tu privacidad y que además dá buenos resultados.
+   
  * __Usa un Gestor de Contraseñas: Adiós a las Contraseñas Olvidadas.__  
 
    Usar la misma contraseña para todo es como usar la misma llave para tu casa, tu coche y tu trabajo.  
